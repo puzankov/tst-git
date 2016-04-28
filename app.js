@@ -10,4 +10,6 @@ var server = app.listen( 3000, function () {
     var host = server.address().adress;
     var port = server.address().port;
     console.log( 'listening %s:%s', host, port );
+
+    console.log(1111);
 } );
